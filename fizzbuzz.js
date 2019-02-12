@@ -7,8 +7,8 @@ Fizz = function (num) {
   }
 }
 
-Buzz = function (num){
-  if (num % 5 == 0){
+Buzz = function (num) {
+  if(num % 5 == 0){
     return true;
   }
   else{
@@ -16,13 +16,11 @@ Buzz = function (num){
   }
 }
 
-FizzBuzz = function (num){
-  if(num % 3 == 0 && num % 5 == 0){
+FizzBuzz = function (num) {
+  if(num % 3 == 0 && num % 5 == 0) {
     return true;
   }
   else{
     return false;
   }
 }
-
-fizzbuzz()
