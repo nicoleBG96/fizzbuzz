@@ -7,4 +7,13 @@ Fizz = function (num) {
   }
 }
 
+Buzz = function (num){
+  if (num % 5 == 0){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+
 fizzbuzz()
